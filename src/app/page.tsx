@@ -215,7 +215,7 @@ export default function Home() {
         </p>
         <div className="grid grid-cols-4 my-8 grid-flow-row gap-4">
           {articles.map((v, i) => (
-            <div className="h-[350px] bg-[#f3f6f5] p-4 text-lg flex flex-col font-semibold">
+            <div className="h-[350px] bg-[#f3f6f5] p-4 text-lg flex flex-col font-semibold" key={i}>
               <div
                 className="h-[200px] mb-2"
                 style={{
